@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Buttons shape={shape} setShape={setShape} />
-      <StageComp shape={shape} />
+      <StageComp shape={shape} setShape={setShape} />
     </>
   )
 }

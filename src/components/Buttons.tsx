@@ -24,6 +24,10 @@ function Buttons({ setShape, shape }: ButtonsProps) {
                 onClick={() => setShape('')}
                 style={{ backgroundColor: shape === '' ? 'lightgray' : 'transparent' }}
                 >none</button>
+            <button 
+                onClick={() => setShape('clear')}
+                style={{ backgroundColor: shape === 'clear' ? 'lightgray' : 'transparent' }}
+                >clear</button>
         </>
     )
 }
